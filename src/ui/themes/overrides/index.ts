@@ -5,3 +5,5 @@ export * from './formHelperText.overrides.ts';
 export * from './inputBase.overrides.ts';
 export * from './outlinedInput.overrides.ts';
 export * from './inputLabel.overrides.ts';
+export * from './buttonBase.overrides.ts';
+export * from './iconButton.overrides.ts';

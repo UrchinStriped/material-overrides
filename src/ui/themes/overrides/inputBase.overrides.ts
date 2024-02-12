@@ -12,7 +12,8 @@ export const MuiInputBase: any = {
         display: 'none',
       },
     },
-    adornedEnd: {},
+    adornedEnd: {
+    },
     adornedStart: {},
     colorSecondary: {},
     formControl: {},

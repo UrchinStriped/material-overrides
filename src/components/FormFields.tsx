@@ -1,7 +1,9 @@
 import React from 'react';
 
-import { FormControl, FormHelperText, Input, InputAdornment, InputLabel, TextField } from '@mui/material';
+import { InputAdornment, TextField } from '@mui/material';
+import IconButton from '@mui/material/IconButton';
 import AccountCircle from '@mui/icons-material/AccountCircle';
+import Close from '@mui/icons-material/Close';
 
 
 const FormFields: React.FC<{}> = () => {
@@ -10,6 +12,7 @@ const FormFields: React.FC<{}> = () => {
 
       <div>
         <TextField
+          size="small"
           value="Test value"
           label="First name"
           placeholder="Input text"
@@ -18,6 +21,13 @@ const FormFields: React.FC<{}> = () => {
             startAdornment: (
               <InputAdornment position="start">
                 <AccountCircle />
+              </InputAdornment>
+            ),
+            endAdornment: (
+              <InputAdornment position="end">
+                <IconButton size="small">
+                  <Close />
+                </IconButton>
               </InputAdornment>
             ),
           }}

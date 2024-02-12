@@ -3,7 +3,7 @@ export const MuiOutlinedInput: any = {
   styleOverrides: {
     root: {
       height: 36,
-      padding: '0 8px',
+      padding: '0 0 0 8px',
 
       '& fieldset': {
         top: 0,
@@ -17,6 +17,9 @@ export const MuiOutlinedInput: any = {
     hiddenLabel: {},
     input: {
       padding: 0,
+      fontSize: '16px',
+      lineHeight: '16px',
+      fontWeight: 500,
     },
     inputAdornedEnd: {},
     inputAdornedStart: {},
